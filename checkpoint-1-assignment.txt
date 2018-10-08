@@ -1,0 +1,66 @@
+1. 1) String
+   2) Integer
+   3) String. Could also be considered a integer depending on how it stored on the system. 
+   4) Float
+   5) Float
+
+2. A database would be used when there is a lot of information being stored that follows a 
+logical pattern of organization. The data that is being provided is predictable and can be 
+categorized for each new data point that is collected. 
+
+A text file works better when the data is free flowing and with much less of a pattern. Free 
+form writing is not consistent in either the order in which the information is provided nor the 
+format that it typed in. It would be difficult to break something like an essay in category 
+headers and fit the information in in a productive way.
+
+3. SQL requires that you provide what you want the result of the search query to be. In other 
+programming languages, you are asked to write what is supposed to happen as opposed to what the 
+result is supposed to be. In programming, your hope is that what you write will result in the 
+answer, whereas in SQL, you simply ask for the information you are looking for.
+
+
+4. Databases allow you to organize data by characteristics that are common across most of the 
+data that you have collected. By the way they are set up, it allows you to look up both 
+specific information about an individual data point while at the same time being able to find 
+relevant trends across all data points by organizing data according to the common category 
+types.
+ 
+5. Databases are made up of of columns, rows and cells (that contain various types of values). 
+The columns represent a specific type of data relevant across all (or at least most) of the 
+data set in the table. The row organizes the table according to each data point. The cells 
+contain the value of the cross section between a category and that data point's value for that 
+category. The table encompasses all of the rows, columns and values to provide a platform to be 
+able to effectively traverse both the categories and the data points (and their values).
+
+6. Strings, integers and objects.
+
+7. Find all of the associated date and amounts that are found in the payments' table.
+
+	'2016-05-01', 1500.00
+	'2016-05-10', 37.00
+	'2016-05-15', 124.93
+	'2016-05-23', 54.72
+
+   Find all of the amounts in the payments table that are over 500.
+	
+	'1500.00'
+
+
+   Find all relevant data in the payments' table where the payee is 'Mega Foods'.
+	
+	'2016-05-15', 'Mega Foods', 124.93, 'Groceries'
+
+8.
+
+
+SELECT email, signup FROM users WHERE name = 'DeAndre Data';
+
+	'datad@comcast.net', '2008-01-20'
+
+SELECT userid FROM users WHERE email = 'aleesia.algorithm@uw.edu';
+
+	1
+
+SELECT * FROM users WHERE userid = 4;
+
+	4, 'Brandy Boolean', 'bboolean@nasa.gov', '1999-10-15'
